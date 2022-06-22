@@ -1,6 +1,6 @@
-# b = "Harry's" # --> Use this if you have single quotes in your strings
-# b = 'Harry"s'
-b = '''Harry"s and 
-       Harry's'''
+# b = "Anand's" # --> Use this if you have single quotes in your strings
+# b = 'Anand"s'
+b = '''Anand"s and 
+       Anand's'''
 print(b)
 # print(type(b))
