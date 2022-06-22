@@ -1,11 +1,11 @@
 # greeting = "Good Morning, "
-# name = "Harry"
+# name = "Anand"
 # print(type(name))
 
 # Concatenating two strings
 # c = greeting + name
 # print(c)
-name = "Harry"
+name = "Anand"
 # print(name[4])
 # name[3] = "d" --> Does not work
 
@@ -15,7 +15,7 @@ name = "Harry"
 # c = name[-4:-1] # is same is name[1:4]
 # print(c)
 
-name = "HarryIsGood"
+name = "AnandIsGood"
 # d = name[0::3]
 d = name[:0:-1]
 print(d)
