@@ -1,8 +1,8 @@
 myDict = {
     "fast": "In a Quick Manner",
-    "harry": "A Coder",
+    "anand": "A Coder",
     "marks": [1, 2, 5],
-    "anotherdict": {'harry': 'Player'},
+    "anotherdict": {'anand': 'Player'},
     1: 2
 }
 
@@ -15,14 +15,14 @@ updateDict = {
     "Lovish": "Friend",
     "Divya": "Friend",
     "Shubham": "Friend",
-    "harry": "A Dancer"
+    "Anand": "A Dancer"
 }
 myDict.update(updateDict) # Updates the dictionary by adding key-value pairs from updateDict
 print(myDict)
 
-print(myDict.get("harry")) # Prints value associated with key "harry"
-print(myDict["harry"]) # Prints value associated with key "harry"
+print(myDict.get("anand")) # Prints value associated with key "anand"
+print(myDict["anand"]) # Prints value associated with key "anand"
 
 # The difference between .get and [] sytax in Dictionaries?
-print(myDict.get("harry2")) # Returns None as harry2 is not present in the dictionary
-print(myDict["harry2"]) # throws an error as harry2 is not present in the dictionary
+print(myDict.get("anand2")) # Returns None as anand2 is not present in the dictionary
+print(myDict["anand2"]) # throws an error as anand2 is not present in the dictionary
