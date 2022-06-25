@@ -1,4 +1,4 @@
-names = ["harry", "shubham", "rohit", "rohan", "aditi", "shipra"]
+names = ["anand", "shubham", "rohit", "rohan", "aditi", "shipra"]
 name = input("Enter the name to check\n")
 
 if name in names:
