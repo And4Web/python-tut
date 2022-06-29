@@ -1,5 +1,5 @@
 class Sample:
-    a = "Harry"
+    a = "Anand"
 
 obj = Sample()
 obj.a = "Vikky"

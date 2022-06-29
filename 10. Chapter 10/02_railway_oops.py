@@ -8,6 +8,6 @@ class RailwayForm:
         print(f"Train is {self.train}")
 
 harrysApplication = RailwayForm()
-harrysApplication.name = "Harry"
+harrysApplication.name = "Anand"
 harrysApplication.train = "Rajdhani Express"
 harrysApplication.printData()

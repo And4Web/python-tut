@@ -9,7 +9,7 @@ class Programmer:
         print(f"The name of the {self.company} programmer is {self.name} and the product is {self.product}")
 
 
-harry = Programmer("Harry", "Skype")
+anand = Programmer("Anand", "Skype")
 alka = Programmer("Alka", "GitHub")
-harry.getInfo()
+anand.getInfo()
 alka.getInfo()

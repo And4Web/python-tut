@@ -12,9 +12,9 @@ class Employee:
     def time():
         print("The time is 9AM in the morning")
 
-harry = Employee()
-harry.salary = 100000
-harry.getSalary("Thanks!") # Employee.getSalary(harry)
-harry.greet() # Employee.greet()
-harry.time()
+anand = Employee()
+anand.salary = 100000
+anand.getSalary("Thanks!") # Employee.getSalary(harry)
+anand.greet() # Employee.greet()
+anand.time()
 

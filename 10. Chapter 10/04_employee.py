@@ -2,15 +2,15 @@ class Employee:
     company = "Google"
     salary = 100
 
-harry = Employee()
+anand = Employee()
 rajni = Employee()
-harry.salary = 300
+anand.salary = 300
 rajni.salary = 400
 
-print(harry.company)
+print(anand.company)
 print(rajni.company)
 Employee.company = "YouTube"
-print(harry.company)
+print(anand.company)
 print(rajni.company)
-print(harry.salary)
+print(anand.salary)
 print(rajni.salary)
